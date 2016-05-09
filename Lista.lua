@@ -56,7 +56,7 @@ function new(  )
 	    local rowHeight = row.contentHeight
 	    local rowWidth = row.contentWidth
 	    
-	    local rowTitle = display.newText( row, row.params.CODUSU .. " " .. row.params.NOMUSU, 0, 0, nil, 20 )
+	    local rowTitle = display.newText( row, row.params.CODUSU .. " - " .. row.params.NOMUSU, 0, 0, nil, 20 )
     	rowTitle:setFillColor( 0 )
         row.x = 0
     	row.alpha = 0
@@ -78,7 +78,7 @@ function new(  )
     	height = display.contentHeight / 100 * 88,
     	width = display.contentWidth,
     	noLines = true,
-    	isBounceEnabled = false,
+    	isBounceEnabled = true,
     	rowTouchDelay = 600,
     	friction = 0.95,
     	maxVelocity = 20,

@@ -45,7 +45,7 @@ function scene:show( event )
         Runtime:addEventListener( "enterFrame", spin )
                 
         local actionBar = display.newRect( display.contentCenterX, 0, display.contentWidth, display.contentHeight / 100 * 12 )
-        actionBar:setFillColor( 96/255,58/255,22/255 )
+        actionBar:setFillColor( 76/255,38/255,02/255 )
         actionBar.anchorY = 0
         local title = display.newText( "Monitor de Usuários", 70, actionBar.height / 2, native.systemFont, 25)
         title.anchorX = 0

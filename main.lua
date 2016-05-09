@@ -18,6 +18,8 @@ local OneSignal = require("plugin.OneSignal")
 -- OneSignal.SetLogLevel(4, 4)
 OneSignal.Init("525f0212-7b0c-4e0c-aeec-83c57155ac36", "11251378042", DidReceiveRemoteNotification)
 
+OneSignal.EnableNotificationsWhenActive(true)
+
 
 local composer = require( "composer" )
 
